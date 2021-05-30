@@ -15,6 +15,10 @@
 		B751DD8F2596B37F00BCC3B7 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751DD8E2596B37E00BCC3B7 /* WindowController.swift */; };
 		B751DD952596ED3A00BCC3B7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751DD942596ED3A00BCC3B7 /* Model.swift */; };
 		B751DD982596EDEF00BCC3B7 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751DD972596EDEF00BCC3B7 /* TaskViewModel.swift */; };
+		B7CE8E3A2663C86600305FCF /* New.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7CE8E362663C86100305FCF /* New.plist */; };
+		B7CE8E3B2663C86600305FCF /* Untitled.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7CE8E372663C86200305FCF /* Untitled.plist */; };
+		B7CE8E3C2663C86600305FCF /* InstaRandomPost.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7CE8E382663C86300305FCF /* InstaRandomPost.plist */; };
+		B7CE8E3D2663C86600305FCF /* Juice.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7CE8E392663C86500305FCF /* Juice.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		B751DD8E2596B37E00BCC3B7 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		B751DD942596ED3A00BCC3B7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		B751DD972596EDEF00BCC3B7 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		B7CE8E362663C86100305FCF /* New.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = New.plist; sourceTree = "<group>"; };
+		B7CE8E372663C86200305FCF /* Untitled.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Untitled.plist; sourceTree = "<group>"; };
+		B7CE8E382663C86300305FCF /* InstaRandomPost.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = InstaRandomPost.plist; sourceTree = "<group>"; };
+		B7CE8E392663C86500305FCF /* Juice.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Juice.plist; sourceTree = "<group>"; };
 		B7D6F7372663C6BE00E92B8A /* Auto_Clicker.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Auto_Clicker.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +69,7 @@
 		B751DD7825916B8400BCC3B7 /* Auto Clicker */ = {
 			isa = PBXGroup;
 			children = (
+				B7CE8E352663C84D00305FCF /* SavePlist */,
 				B7D6F7372663C6BE00E92B8A /* Auto_Clicker.entitlements */,
 				B751DD7925916B8400BCC3B7 /* AppDelegate.swift */,
 				B751DD7B25916B8400BCC3B7 /* HomeController.swift */,
@@ -73,6 +82,17 @@
 				B751DD972596EDEF00BCC3B7 /* TaskViewModel.swift */,
 			);
 			path = "Auto Clicker";
+			sourceTree = "<group>";
+		};
+		B7CE8E352663C84D00305FCF /* SavePlist */ = {
+			isa = PBXGroup;
+			children = (
+				B7CE8E382663C86300305FCF /* InstaRandomPost.plist */,
+				B7CE8E392663C86500305FCF /* Juice.plist */,
+				B7CE8E362663C86100305FCF /* New.plist */,
+				B7CE8E372663C86200305FCF /* Untitled.plist */,
+			);
+			path = SavePlist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B751DD7E25916B8E00BCC3B7 /* Assets.xcassets in Resources */,
+				B7CE8E3D2663C86600305FCF /* Juice.plist in Resources */,
+				B7CE8E3B2663C86600305FCF /* Untitled.plist in Resources */,
+				B7CE8E3A2663C86600305FCF /* New.plist in Resources */,
+				B7CE8E3C2663C86600305FCF /* InstaRandomPost.plist in Resources */,
 				B751DD8125916B8E00BCC3B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
